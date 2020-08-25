@@ -30,6 +30,6 @@ jobs:
 
     - name: Deploy to Azure
       uses: Azure/webapps-deploy@v1
-      With:
+      with:
         publish-profile: ${{ secrets.AzureWebAppPublishProfile }}
         package: ./mercuryhealth-we
